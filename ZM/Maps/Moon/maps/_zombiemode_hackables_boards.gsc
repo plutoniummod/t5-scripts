@@ -34,7 +34,7 @@ hack_boards()
 			h = spot.height;
 		}
 		
-		struct.origin = org + (0,0,48);; // window.origin;// + (AnglesToForward(window.angles) * 54);// + (0,0,24);
+		struct.origin = org + (0,0,48); // window.origin;// + (AnglesToForward(window.angles) * 54);// + (0,0,24);
 		struct.radius = r;
 		struct.height = h;
 		struct.script_float = 2;

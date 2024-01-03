@@ -941,9 +941,9 @@ end_of_game_summary_begin()
 	if ( camera_angles[0] > 180 ) camera_angles -= (360,0,0);
 	if ( camera_angles[1] > 180 ) camera_angles -= (0,360,0);
 	if ( camera_angles[2] > 180 ) camera_angles -= (0,0,360);
-	if ( camera_angles[0] < -180 ) camera_angles += (360,0,0);;
-	if ( camera_angles[1] < -180 ) camera_angles += (0,360,0);;
-	if ( camera_angles[2] < -180 ) camera_angles += (0,0,360);;
+	if ( camera_angles[0] < -180 ) camera_angles += (360,0,0);
+	if ( camera_angles[1] < -180 ) camera_angles += (0,360,0);
+	if ( camera_angles[2] < -180 ) camera_angles += (0,0,360);
 	//set the camera/angles
 	offset = camPos - dudes[0].origin;
 	for (i = 0; i < players.size; i++)
